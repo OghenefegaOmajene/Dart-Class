@@ -57,6 +57,8 @@ void main(){
     //     print('Read your book');
     // }
 
-    int score = 75;
-
+    // int score = 75;
+    // String result = (score >= 60)?'Pass' : 'Fail';
+    // print(result);
+    // condition ? valueTrue : valueFalse
 }
