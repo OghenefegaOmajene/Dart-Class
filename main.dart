@@ -14,20 +14,49 @@ void main(){
 
     // print('\n The sum of $num1 and $num2 is $sum');
 
-    bool isRaining = true;
+    // bool isRaining = true;
     // if(isRaining){
     //     print('We plant during the rainy season');
     // }else{
     //     print('Otherwise we harvest');
     // }
 
-    int tempC = 35;
-    if(tempC < 0){
-        print('Wear a heavy coat');
-    }else if(tempC < 20){
-        print('Wear a sweater');
-    }else{
-        print('Wear light clothing');
-    }
+    // int tempC = 35;
+    // if(tempC < 0){
+    //     print('Wear a heavy coat');
+    // }else if(tempC < 20){
+    //     print('Wear a sweater');
+    // }else{
+    //     print('Wear light clothing');
+    // }
+
+    // bool haveUmbrella = true;
+    // bool isRaining = true;
+
+    // if(haveUmbrella){
+    //     if(isRaining){
+    //         print('Take an umbrella');
+    //     }else{
+    //         print('Umbrella is missing');
+    //     }
+    // }else{
+    //     print('No umbrella is available');
+    // }
+
+// LOGICAL OPERATORS IN DART 
+//AND &&, OR ||,  NOT !
+
+    // bool isWeekend = true;
+    // bool isSunny = false;
+
+    // if(isWeekend && isSunny){
+    //     print('Go to the beach');
+    // }else if(isWeekend || isSunny){
+    //     print('Maybe you can take a walk');
+    // }else{
+    //     print('Read your book');
+    // }
+
+    int score = 75;
 
 }
