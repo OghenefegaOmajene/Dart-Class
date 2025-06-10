@@ -69,7 +69,7 @@ void main(){
     // school = school.trim();
     // print(school.length);
 
-    var isPort = school.contains("Port");
+    // var isPort = school.contains("Port");
     // print(isPort);
 
     // arrays
@@ -78,5 +78,8 @@ void main(){
 
     // print(reverseStr("prince"));
     // print(isPalindrome("noon"));
-    print(countVowelsAndConsonants("daniel"));
+
+    // print(countVowelsAndConsonants("daniel"));
+
+    print(charCounts("abacb"));
 }

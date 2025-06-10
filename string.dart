@@ -11,12 +11,24 @@ void countVowelsAndConsonants(String str){
   int cCount = 0;
 
   var vowels = {'a', 'e', 'i', 'o', 'u'};
-  
+
   for(var character in str.toLowerCase().runes){
     String char = String.fromCharCode(character);
     if(vowels.contains(char)) vCount++;
-    else if(RegExp(r'[a-z]').hasMatch(char)) cCount++;
+    else if(RegExp(r'[a-z]').hasMatch(char)) 
+      cCount++;
   }
 
   print('Vowels: $vCount, Consonants: $cCount');
+}
+
+// count how many times a character appears
+
+Map<String, int>charCounts(String s){
+  var m = <String, int>{};
+
+  for(var ch in s.split('')){
+    m[ch] = (m[ch]??0)+1;
+  }
+  return m;
 }
