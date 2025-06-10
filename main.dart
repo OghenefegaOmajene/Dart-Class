@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'addition.dart';
+import 'string.dart';
 void main(){
     // stdout.write('Enter the first number: ');
     // String? input1 = stdin.readLineSync();
@@ -69,5 +70,11 @@ void main(){
     // print(school.length);
 
     var isPort = school.contains("Port");
-    print(isPort);
+    // print(isPort);
+
+    // arrays
+    // var eachSchool = school.split(' ');
+    // print(eachSchool);
+
+    print(reverseStr("prince"));
 }
