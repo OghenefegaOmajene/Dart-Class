@@ -61,4 +61,13 @@ void main(){
     // String result = (score >= 60)?'Pass' : 'Fail';
     // print(result);
     // condition ? valueTrue : valueFalse
+
+    var school = 'Aptech Port Harcourt';
+    // print(school.length);
+    // print(school.toLowerCase());
+    // school = school.trim();
+    // print(school.length);
+
+    var isPort = school.contains("Port");
+    print(isPort);
 }
