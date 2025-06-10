@@ -77,5 +77,6 @@ void main(){
     // print(eachSchool);
 
     // print(reverseStr("prince"));
-    print(isPalindrome("noon"));
+    // print(isPalindrome("noon"));
+    print(countVowelsAndConsonants("daniel"));
 }
