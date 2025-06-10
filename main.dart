@@ -76,5 +76,6 @@ void main(){
     // var eachSchool = school.split(' ');
     // print(eachSchool);
 
-    print(reverseStr("prince"));
+    // print(reverseStr("prince"));
+    print(isPalindrome("noon"));
 }
