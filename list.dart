@@ -71,6 +71,7 @@ int removeDuplicate(List<int> nums){
   return write;
 }
 
+// A map is an unordered collection of unique keys
 
 
 
