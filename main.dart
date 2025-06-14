@@ -15,12 +15,12 @@ void main(){
 
     // print('\n The sum of $num1 and $num2 is $sum');
 
-    // bool isRaining = true;
-    // if(isRaining){
-    //     print('We plant during the rainy season');
-    // }else{
-    //     print('Otherwise we harvest');
-    // }
+    bool isRaining = true;
+    if(isRaining){
+        print('We plant during the rainy season');
+    }else{
+        print('Otherwise we harvest');
+    }
 
     // int tempC = 35;
     // if(tempC < 0){
