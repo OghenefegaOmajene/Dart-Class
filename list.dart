@@ -31,17 +31,45 @@ void main(){
   // fruits.forEach((fruit)=>print(fruit));
 
   var numbers = [1,2,3,4,5];
-  var squared = numbers.map((number)=>number * number).toList();
-  print(squared);
+  // var squared = numbers.map((number)=>number * number).toList();
+  // print(squared);
 
-  var evenOnly = numbers.where((number)=>number.isEven).toList();
-  print(evenOnly);
+  // var evenOnly = numbers.where((number)=>number.isEven).toList();
+  // print(evenOnly);
 
-  var total = numbers.reduce((initial, curval)=>initial + curval);
-  print(total);
+  // var total = numbers.reduce((initial, curval)=>initial + curval);
+  // print(total);
 
+  // var mul = numbers.fold(1, (p, number)=>p*number);
+  // print(mul);
+
+  // 2 dimensional array
+  // var matrix = [
+  //   [1,2,3],
+  //   [4,5,6],
+  //   [7,8,9],
+  // ];
+  // print(matrix[1][6]);
+
+  //PROBLEM input: [1,1,2,2,3,3,4] =>[1,2,3,4]
+  var nums = [1,1,2,2,3,3,4];
+  var len = removeDuplicate(nums);
+  print('Length: $len, List:${nums.sublist(1, len)}');
 }
 
+int removeDuplicate(List<int> nums){
+  if(nums.isEmpty) return 0;
+  int write = 1;
+
+  for (var i=1; i<nums.length; i++){
+    if (nums[i] != nums[i - 1]){
+      nums[write] = nums[i];
+      write++;
+    }
+  }
+
+  return write;
+}
 
 
 
